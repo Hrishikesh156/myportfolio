@@ -1,0 +1,25 @@
+.box{
+    display: flex;
+    /* flex-direction: row; */
+    overflow: hidden;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.icon{
+    
+    margin:45px;
+}
+img{
+    display: inline-block;
+    
+}
+.tech{
+    margin-top:100px;
+    margin-left: 50px;
+}
+.icon:hover{
+    transform: scale(1.5);
+}

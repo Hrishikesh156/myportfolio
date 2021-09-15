@@ -1,0 +1,18 @@
+body{
+    color: white;
+}
+#Education{
+    /* display: flex; */
+    text-align: left;
+    
+}
+.content{
+    margin: 50px;
+}
+h2{
+    margin:10px;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 20px;
+}
