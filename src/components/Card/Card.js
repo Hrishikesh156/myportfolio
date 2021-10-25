@@ -1,8 +1,8 @@
-import Tom from '/Projects/myportfolio/src/media/Tom.png';
-import Robot from '/Projects/myportfolio/src/media/robots.png';
-import ML from '/Projects/myportfolio/src/media/ML.png';
+import Tom from '../../media/Tom.png';
+import Robot from '../../media/robots.png';
+import ML from '../../media/ML.png';
 import './Card.css';
-import GH from '/Projects/myportfolio/src/media/github.png';
+import GH from '../../media/github.png';
 import Tilt from 'react-tilt'
 const Card = () =>{
     return(
