@@ -1,13 +1,13 @@
-body{
-    color: white;
-}
+/* body{
+    color: black;
+} */
 #Education{
     /* display: flex; */
     text-align: left;
     
 }
 .content{
-    margin: 50px;
+    margin: 100px;
 }
 h2{
     margin:10px;

@@ -2,7 +2,7 @@ import './Tech.css'
 const Tech = () =>{
     return(
         <div className="tech">
-            <h1>Technologies I'm Famlilar with</h1>
+            <h1><b>Technologies I'm Famililar with</b></h1>
             <div className="box">
             <div className="icon">
             <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" alt="java"/>
@@ -24,7 +24,7 @@ const Tech = () =>{
             </div>
 
             <div className="icon">
-            <img src="https://img.icons8.com/ios/50/000000/php-logo.png" alt="php"/>
+            <img src="https://img.icons8.com/color/48/000000/php.png" alt="php"/>
             <h3>PHP</h3>
             </div>
 
@@ -34,12 +34,14 @@ const Tech = () =>{
             </div>
 
             <div className="icon">
-            <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="github"/>
+            <img src="https://img.icons8.com/nolan/48/github.png" alt="github"/>
+          
             <h3>GITHUB</h3>
             </div>
 
             <div className="icon">
-            <img src="https://img.icons8.com/windows/48/000000/node-js.png" alt="nodejs"/>
+            <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="nodejs"/>
+      
             <h3>NODE</h3>
             </div>
 
@@ -49,7 +51,8 @@ const Tech = () =>{
             </div>
 
             <div className="icon">
-            <img src="https://img.icons8.com/ios/48/000000/mysql-logo.png" alt="mysql"/>
+            <img src="https://img.icons8.com/nolan/48/mysql.png" alt="mysql"/>
+          
             <h3>MYSQL</h3>
             </div>
 
@@ -59,7 +62,8 @@ const Tech = () =>{
             </div>
 
             <div className="icon">
-            <img src="https://img.icons8.com/ios-filled/48/000000/android-os.png" alt="android"/>
+            <img src="https://img.icons8.com/color/48/000000/android-os.png" alt="android"/>
+        
             <h3>ANDROID</h3>
             </div>
 
@@ -69,7 +73,7 @@ const Tech = () =>{
             </div>
 
             <div className="icon">
-            <img src="https://img.icons8.com/ios-filled/48/000000/typescript.png" alt="typescript"/>
+            <img src="https://img.icons8.com/color/48/000000/typescript.png" alt="typescript"/>
             <h3>TYPERSCRIPT</h3>
             </div>
 
