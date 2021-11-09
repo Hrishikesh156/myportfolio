@@ -1,3 +1,4 @@
+
 .box{
     display: flex;
     /* flex-direction: row; */
@@ -10,15 +11,15 @@
 }
 .icon{
     
-    margin:45px;
+    margin:40px;
 }
 img{
     display: inline-block;
     
 }
 .tech{
-    margin-top:100px;
-    margin-left: 50px;
+    margin-top:350px;
+    margin-left: 100px;
 }
 .icon:hover{
     transform: scale(1.5);

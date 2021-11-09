@@ -7,13 +7,13 @@ import Tilt from 'react-tilt'
 const Card = () =>{
     return(
         <div>
-            <h1 className="title" style={{color:"white",marginTop:"200px" }}>Projects</h1>
+            <h1 className="title" style={{marginTop:"200px" ,marginLeft:"100px" }}><b>Projects</b></h1>
     <div className="project-cards" id = "project">
             
             
             <div className="card" >
            
-            <img src={Tom} alt="Avatar" style={{width:400 , height:500}} />
+            <img src={Tom} alt="Avatar" style={{width:300 , height:400}} />
             <div className="container">
             <h4><b>Face Detection</b></h4>
             <p>1.Register & sigin<br />
@@ -39,7 +39,7 @@ const Card = () =>{
     
 
          <div className="card" >
-         <img src={Robot} alt="Avatar" style={{width:400 , height:500}} />
+         <img src={Robot} alt="Avatar" style={{width:300 , height:400}} />
          <div className="container">
          <h4><b>Search & Create Robots</b></h4>
          <p>Here are various robots and their attribites mentioned on the card.<br />
@@ -63,7 +63,7 @@ const Card = () =>{
          <img src={ML} alt="Avatar" style={{width:400 , height:500}} />
          <div className="container">
          <h4><b>Face Identification in Python</b></h4>
-         <p>This project is to train ML model to identify someone's face. By changing training data set  in Image folder you can reuse this model.</p>
+         <p>This project is to train ML model to identify someone's face in python. </p>
          <div className="center">
                 <Tilt className="Tilt" options={{ max : 25 }} style={{ height: 250, width: 250 }} >
                <div className="Tilt-inner">
