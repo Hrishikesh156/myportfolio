@@ -40,26 +40,8 @@ render(){
        <Navbar />
      
 
-      <div className="intro" id="home" >
-        <span className="wave">
-        <b>Hii</b> &nbsp;
-        <img src= {Hand} alt = "hand" width="35px" />
-        <br/>
-          <b>I'm Hrishi.</b> <br></br>
-          <br></br>
-          
-        </span>
-        {/* <span className="center">
-        <Tilt className="Tilt" options={{ max : 25 }} style={{ height: 250, width: 250 }} >
-        <div className="Tilt-inner">
-        <img src={Dp} alt="me" class="rounded-circle" height="200" width="200" style = {{margin:"40px"}}></img>
-           
-        </div>
-        </Tilt>
-
-        </span>       */}
-        </div>
-        <img src={Dp} className="profile" alt="me"  height="600" width="300" style = {{margin:"40px"}}></img>
+      
+        
       
         <About />
         <Tech />
@@ -69,7 +51,7 @@ render(){
 
         <Contact />
         <footer>
-          copyright@ 2021 portfolio website
+          copyright@ 2022 portfolio website
         </footer>
 
       

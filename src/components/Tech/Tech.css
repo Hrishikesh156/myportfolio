@@ -4,22 +4,22 @@
     /* flex-direction: row; */
     overflow: hidden;
     flex-wrap: wrap;
-    flex-direction: row;
+ 
     justify-content: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
 }
 .icon{
     
-    margin:40px;
+    margin:3%;
 }
 img{
     display: inline-block;
     
 }
 .tech{
-    margin-top:350px;
-    margin-left: 100px;
+    margin-top:50px;
+    margin-left: 5%;
 }
 .icon:hover{
     transform: scale(1.5);

@@ -1,4 +1,5 @@
 import './Tech.css'
+
 const Tech = () =>{
     return(
         <div className="tech">
@@ -9,7 +10,7 @@ const Tech = () =>{
             <h3>JAVA</h3>
             </div>
             <div className="icon">
-            <img src="https://img.icons8.com/color/48/000000/python--v2.png" alt="python"/>
+            <img src='https://img.icons8.com/color/48/000000/python--v2.png'alt="python"/>
             <h3>PYTHON</h3>
             </div>
 

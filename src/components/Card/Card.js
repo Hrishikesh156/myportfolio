@@ -4,25 +4,48 @@ import ML from '../../media/ML.png';
 import './Card.css';
 import GH from '../../media/github.png';
 import Tilt from 'react-tilt'
+import Sign from '../../media/sign language.jpg'
+import msg from '../../media/messaging.jpg'
 const Card = () =>{
     return(
         <div>
-            <h1 className="title" style={{marginTop:"200px" ,marginLeft:"100px" }}><b>Projects</b></h1>
+            <h1 className="title" style={{marginTop:"50px" ,marginLeft:"100px" }}><b>Projects</b></h1>
     <div className="project-cards" id = "project">
             
-            
+            <div className="card" >
+                <img src={Sign} alt="Avatar" style={{width:300 , height:400}} />
+                <div className="container">
+                <h4><b>Sign Language Interpreter</b></h4>
+                <p>Two important features <br />
+                1) Sign language to text/speech <br />
+                2) Text to corresponding signs.<br />
+</p>
+                    <div className="center">
+                        <Tilt className="Tilt" options={{ max : 25 }} style={{ height: 250, width: 250 }} >
+                    <div className="Tilt-inner">
+                    <a href="https://github.com/Hrishikesh156/Sign-Language-Interpreter"  target="_blank" rel="noreferrer noopener">
+                            <img src={GH} alt="github" />
+
+                        </a> 
+                        </div>
+                    </Tilt>
+
+                        </div>
+                    
+                </div>
+                </div>
+
+
             <div className="card" >
            
-            <img src={Tom} alt="Avatar" style={{width:300 , height:400}} />
+            <img src={msg} alt="Avatar" style={{width:300 , height:400}} />
             <div className="container">
-            <h4><b>Face Detection</b></h4>
-            <p>1.Register & sigin<br />
-                2. Click detect   <br />
-                3. Check your Rank </p>
+            <h4><b>Messaging Application.</b></h4>
+            <p>one to one texting, community channel, stories, reaction to messages etc. </p>
                 <div className="center">
                 <Tilt className="Tilt" options={{ max : 25 }} style={{ height: 250, width: 250 }} >
                <div className="Tilt-inner">
-               <a href="https://github.com/Hrishikesh156/FaceDetection.git"  target="_blank" rel="noreferrer noopener">
+               <a href="https://github.com/Hrishikesh156/Social_Media_App"  target="_blank" rel="noreferrer noopener">
                     <img src={GH} alt="github" />
 
                 </a> 
@@ -37,6 +60,32 @@ const Card = () =>{
             
             </div>
     
+           
+           <div className="card" >
+           
+           <img src={Tom} alt="Avatar" style={{width:300 , height:400}} />
+           <div className="container">
+           <h4><b>Face Detection</b></h4>
+           <p>1.Register & sigin<br />
+               2. Click detect   <br />
+               3. Check your Rank </p>
+               <div className="center">
+               <Tilt className="Tilt" options={{ max : 25 }} style={{ height: 250, width: 250 }} >
+              <div className="Tilt-inner">
+              <a href="https://github.com/Hrishikesh156/FaceDetection.git"  target="_blank" rel="noreferrer noopener">
+                   <img src={GH} alt="github" />
+
+               </a> 
+               </div>
+              </Tilt>
+
+               </div>
+
+
+           </div>
+               
+           
+           </div> 
 
          <div className="card" >
          <img src={Robot} alt="Avatar" style={{width:300 , height:400}} />
